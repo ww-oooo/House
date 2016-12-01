@@ -1,0 +1,143 @@
+page{
+    background: #f5f5f9;
+}
+.header{
+    width: 100%;
+    height: 380rpx;
+    background: #00aaee;
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 30rpx;
+    padding-right: 30rpx;
+}
+.header .title{
+    width: 462rpx;
+    height: 50rpx;
+    box-sizing: border-box;
+    border: 2rpx solid #ffffff;
+    border-radius: 10rpx;
+    top:25rpx;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    overflow: hidden;
+}
+.header .title .type{
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    line-height: 50rpx;
+    font-size: 12px;
+    color:#fff;
+    background: transparent;
+}
+.header .title .type.active{
+    color: #00aaee;
+    background: #fff;
+}
+.header .monthly{
+    position: absolute;
+    top: 110rpx;
+    left:30rpx;
+    font-size: 12px;
+    color:#fff;
+}
+.header .monthly1{
+    left: 50%;
+    margin-left:30rpx;
+}
+.header .monthpay{
+    position: absolute;
+    left: 30rpx;
+    font-size:24px;
+    color:#fff;
+    top:165rpx;
+}
+.header .monthpay1{
+      left: 50%;
+    margin-left:30rpx;
+}
+.header .table{
+    width: 100%;
+    height: 100rpx;
+    position: absolute;
+    bottom: 20rpx;
+    background: transparent;
+    left: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+.header .table .profit{
+    width: 50%;
+    float:left;
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+    border-right:1rpx solid #32bbf1;
+}
+.header .table .payment{
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+.header .table .word{
+    position: absolute;
+    font-size: 12px;
+    top:0;
+    left: 30rpx;
+}
+.header .table .money{
+    position: absolute;
+    font-size: 16px;
+    top:50rpx;
+    left: 30rpx;
+}
+/*header*/
+.main{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+.main .list{
+    width: 100%;
+    box-sizing: border-box;
+    padding-left:30rpx;
+    padding-right: 30rpx; 
+    height: 90rpx;
+    border-bottom: 1rpx solid #eeeeee;
+    background: #fff;
+}
+.main .list .left{
+    font-size: 14px;
+    line-height: 90rpx;
+    float: left;
+    font-weight:bold;
+    color: #000;
+}
+.main .list .right{
+    float: right;
+    font-size: 14px;
+    line-height: 90rpx;
+    color:#767676;
+    font-weight:bold;
+}
+.main .list input{
+    height: 100%;
+    text-align: right;
+}
+/*main*/
+.commit{
+    width: 100%;
+    height: 48rpx;
+    position: relative;
+    box-sizing: border-box;
+    padding-left:30rpx;
+    padding-right: 30rpx; 
+    line-height: 24px;
+    font-size: 12px;
+    color: #999999;
+}
